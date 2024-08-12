@@ -1,0 +1,25 @@
+.rodape{
+    background-color: #222;
+    color: #FFF;
+    padding: 2%;
+    text-align: center;
+    height: 15%
+}
+
+.rodape ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.rodape ul li{
+    transition: 0.5s;
+    margin: 0 5%;
+    font-size: 1.5em;
+}
+
+.rodape ul li:hover{
+    transition: 0.5s;
+    color: #ffbb33;
+    cursor: pointer;
+}

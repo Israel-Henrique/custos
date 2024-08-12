@@ -7,3 +7,8 @@
 body{
   background-color: #112222;
 }
+
+
+#root, body, html{
+  height: 100%;
+}

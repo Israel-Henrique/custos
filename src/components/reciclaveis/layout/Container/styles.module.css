@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.minHeight{
+    min-height: 70%;
+    background-color: transparent;
+}
+
+.teste{
+    background-color: black;
+    width:max-content;
+}
+
+.start{
+    justify-content: center;
+}
+
+.column{
+    flex-direction: column;
+    justify-content: flex-start;
+}
