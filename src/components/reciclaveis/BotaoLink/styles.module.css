@@ -1,0 +1,13 @@
+.botao{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 30%;
+}
+
+.botao:hover{
+    color: yellow;
+    transform: 0.5s;
+}

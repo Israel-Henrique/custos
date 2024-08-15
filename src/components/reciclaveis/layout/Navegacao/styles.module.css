@@ -15,20 +15,21 @@
     margin-right: 3%;
 }
 
-div > a{
+.navegacao div > a{
     height: 100%;
     margin-left: 3%;
     border: 0px solid rgba(0, 0, 0, 0);
 }
 
-div > a:hover{
+.navegacao div > a:hover{
     transition: 0.5s;
     border: 0.5vh solid #FFBB33;
     border-radius: 100%;
 }
 
-img {
+.navegacao img {
     height: 100%;
+    padding: -1;
 }
 
 .listaa li {
