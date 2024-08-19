@@ -1,0 +1,7 @@
+.formulario{
+    margin: 3% 20%;
+}
+
+.formulario > *{
+    margin-bottom: 1%;
+}

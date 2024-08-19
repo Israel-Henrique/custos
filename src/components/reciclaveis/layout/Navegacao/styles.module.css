@@ -11,7 +11,7 @@
     list-style: none;
     align-items: center;
     justify-content: space-between;
-    width: 30%;
+    width: 40%;
     margin-right: 3%;
 }
 
@@ -41,7 +41,20 @@
     margin--right: 5%;
     color: #FFF;
     text-decoration: none;
+    font-size: 1.5vw;
 }
+
+@media only screen and (max-width: 600px) {
+    .lista li a{
+        font-size: 2vh;
+        text-wrap: nowrap;
+    }
+
+    .lista{
+        margin-right: 5%;
+        width: 60%;
+    }
+ }
 
 .lista li a:hover{
     transition-duration: 0.5s;

@@ -13,6 +13,12 @@
     width: 25%;
 }
 
+@media only screen and (max-width: 600px) {
+    .principal img{
+        width: 50%;
+    }
+}
+
 .principal h1{
     font-weight: 900;
 }
@@ -21,6 +27,7 @@
     font-weight: 100;
     font-size: 3vh;
     margin: 0 5vw;
+    text-align: center;
 }
 
 .principal span{
