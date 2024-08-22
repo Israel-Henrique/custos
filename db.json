@@ -1,0 +1,10 @@
+{
+    "projetos": [],
+    "categorias": 
+    [
+        {"id": 1, "nome": "infra"},
+        {"id": 2, "nome": "dev"},
+        {"id": 3, "nome": "design"},
+        {"id": 4, "nome": "planejamento"}
+    ]
+}

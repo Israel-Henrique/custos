@@ -12,10 +12,22 @@
 .input input{
     border: none;
     border-radius: 40px;
-    padding: 1%;
+    padding: 1vh;
     background-color: whitesmoke;
 }
 
 .input input::placeholder{
     color: gray;
+}
+
+.submit input{
+    transition: 0.5s;
+    background-color: #222222;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.submit input:hover{
+    transition: 0.5s;
+    color:  #dddd00;
 }

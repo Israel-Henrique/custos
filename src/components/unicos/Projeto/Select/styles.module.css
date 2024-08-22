@@ -1,0 +1,18 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.input label{
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.input select{
+    border: none;
+    border-radius: 40px;
+    padding: 1%;
+    background-color: whitesmoke;
+}
+

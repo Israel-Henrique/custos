@@ -1,7 +1,11 @@
 .formulario{
-    margin: 3% 20%;
+    margin: 3vh 20%;
 }
 
 .formulario > *{
-    margin-bottom: 1%;
+    margin: 0 auto 2vh auto;
+}
+
+.formulario .submissao{
+    width: fit-content;
 }

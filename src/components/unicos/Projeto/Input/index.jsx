@@ -1,19 +1,26 @@
 import styles from "./styles.module.css";
 
-const Input = ({type, text, name, placeholder, handleOnChange, value}) =>
+const Input = ({type, text, name, placeholder, handleOnChange, value, className}) =>
+{
+    let classextra = "indefinido";
+    if (type == "submit") classextra = styles.submit;
 
-<div className = {styles.input}>
-    <label htmlFor = {name}>{text}</label>
-    <input
-    
-    type = {type}
-    name = {name}
-    placeholder = {placeholder}
-    handleonchange = {handleOnChange}
-    value = {value}
+    const JSX =
+    <div className = {`${styles.input} ${className} ${classextra}`}>
+        <label htmlFor = {name}>{text}</label>
+        <input
+        
+        type = {type}
+        name = {name}
+        placeholder = {placeholder}
+        handleonchange = {handleOnChange}
+        value = {value}
 
-    id = {name}
-    />
-</div>;
+        id = {name}
+        />
+    </div>;
+
+    return JSX;
+}
 
 export default Input;
