@@ -1,10 +1,70 @@
 {
-    "projetos": [],
-    "categorias": 
-    [
-        {"id": 1, "nome": "infra"},
-        {"id": 2, "nome": "dev"},
-        {"id": 3, "nome": "design"},
-        {"id": 4, "nome": "planejamento"}
-    ]
+  "projetos": [
+    {
+      "id": "0d3e",
+      "nome": "testeCATG",
+      "orcamento": "999.99",
+      "categoria": "3",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "d7a8",
+      "categoria": 1,
+      "nome": "testeCATG2",
+      "orcamento": "999.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "a2cc",
+      "categoria": 1,
+      "nome": "testeCATG2",
+      "orcamento": "999.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "1934",
+      "categoria": 1,
+      "nome": "testeCATG2",
+      "orcamento": "999.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "7600",
+      "categoria": 1,
+      "nome": "testeCATG2",
+      "orcamento": "999.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "c5cf",
+      "categoria": 1,
+      "nome": "testeCATG2",
+      "orcamento": "999.99",
+      "custo": 0,
+      "servicos": 0
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "nome": "infra"
+    },
+    {
+      "id": "2",
+      "nome": "dev"
+    },
+    {
+      "id": "3",
+      "nome": "design"
+    },
+    {
+      "id": "4",
+      "nome": "planejamento"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 
-const Input = ({type, text, name, placeholder, handleOnChange, value, className}) =>
+const Input = ({type, step, text, name, placeholder, handleOnChange, onSubmit, value, className}) =>
 {
     let classextra = "indefinido";
     if (type == "submit") classextra = styles.submit;
@@ -10,10 +10,11 @@ const Input = ({type, text, name, placeholder, handleOnChange, value, className}
         <label htmlFor = {name}>{text}</label>
         <input
         
+        step = {step}
         type = {type}
         name = {name}
         placeholder = {placeholder}
-        handleonchange = {handleOnChange}
+        onChange = {handleOnChange}
         value = {value}
 
         id = {name}

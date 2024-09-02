@@ -15,7 +15,7 @@ const Select = ({text, name, handleOnChange, value, opcoes}) =>
         <select
         
         name = {name}
-        handleonchange = {handleOnChange}
+        onChange = {handleOnChange}
         value = {value}
 
         id = {name}
