@@ -1,4 +1,10 @@
 .proj{
     width: 100%;
     background-color: #eeee;
+    padding: 1vh;
+}
+
+.proj > div{
+    display: flex;
+    justify-content: space-between;
 }

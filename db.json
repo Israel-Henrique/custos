@@ -47,6 +47,126 @@
       "orcamento": "999.99",
       "custo": 0,
       "servicos": 0
+    },
+    {
+      "id": "0ca8",
+      "categoria": "3",
+      "nome": "testrando",
+      "orcamento": "182729.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "c35c",
+      "categoria": 1,
+      "nome": "testrando",
+      "orcamento": "182729.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "f360",
+      "categoria": 1,
+      "nome": "testrando",
+      "orcamento": "182729.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "1ce9",
+      "categoria": 1,
+      "nome": "testrando",
+      "orcamento": "182729.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "5a9c",
+      "categoria": 1,
+      "nome": "testrando",
+      "orcamento": "182729.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "15b2",
+      "categoria": 1,
+      "nome": "testrando",
+      "orcamento": "182729.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "957f",
+      "categoria": 1,
+      "nome": "testrando",
+      "orcamento": "182729.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "92e6",
+      "categoria": 1,
+      "nome": "testrando",
+      "orcamento": "182729.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "258a",
+      "categoria": 1,
+      "nome": "testrando",
+      "orcamento": "182729.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "d2da",
+      "categoria": 1,
+      "nome": "testrando",
+      "orcamento": "182729.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "9e86",
+      "categoria": 1,
+      "nome": "testrando",
+      "orcamento": "182729.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "076b",
+      "categoria": 1,
+      "nome": "testrando",
+      "orcamento": "182729.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "7fa4",
+      "categoria": 1,
+      "nome": "testrando",
+      "orcamento": "182729.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "8e8a",
+      "categoria": 1,
+      "nome": "testrando",
+      "orcamento": "182729.99",
+      "custo": 0,
+      "servicos": 0
+    },
+    {
+      "id": "3956",
+      "categoria": 1,
+      "nome": "testrando",
+      "orcamento": "182729.99",
+      "custo": 0,
+      "servicos": 0
     }
   ],
   "categorias": [

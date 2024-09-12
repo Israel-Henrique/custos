@@ -17,7 +17,10 @@ const NovoProjeto = () =>
             "headers": {"Content-Type": "application/json"},
             "body": JSON.stringify(projeto)
         })
-        .then(resposta => resposta.json()).then(dados => {console.log(dados); navegante("/projetos", {"message": "TESTANDO"})})
+        .then(resposta => resposta.json()).then(dados => {
+            console.log(dados); 
+            navegante("/projetos", {"state": {"message": "TESTANDO"}})
+        })
         .catch(erro => console.log(erro)); 
     }
     
