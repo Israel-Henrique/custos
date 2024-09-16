@@ -1,10 +1,10 @@
 .proj{
     width: 100%;
     background-color: #eeee;
-    padding: 1vh;
+    padding: 2vh;
 }
 
-.proj > div{
+.header{
     display: flex;
     justify-content: space-between;
 }

@@ -14,16 +14,9 @@ const Mensagem = ({msg, tipo}) =>
     useEffect(()=> 
     {
         if (!visivel) {return};
-
         console.log("Variavel: " + (visivel));
+        
         let ampulheta = setTimeout(() => {setVisivel(false); console.log("ai")}, 3000);
-
-                /*(async function () {
-                    const relogio =  setTimeout(() => {setVisivel(false); console.log("ai")}, 3000);
-                    
-                    //return () => clearTimeout(relogio);
-                    return relogio;
-                })();*/
 
         return () => {clearTimeout(ampulheta); console.log("fechado")};
     }, [visivel])
