@@ -1,4 +1,5 @@
 import {FaFacebook as Face, FaInstagram as Insta, FaLinkedin as LKdin} from "react-icons/fa";
+//import { GiSonicShoes} from "react-icons/gi";
 import styles from "./styles.module.css";
 
 const Rodape = () => 

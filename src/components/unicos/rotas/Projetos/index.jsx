@@ -4,7 +4,7 @@ import Mensagem from "../../../reciclaveis/layout/Mensagem";
 import BotaoLink from "../../../reciclaveis/BotaoLink/index.jsx";
 import Container from "../../../reciclaveis/layout/Container/index.jsx"
 import styles from "./styles.module.css";
-import Projeto from "../../Projeto/Projeto/index.jsx";
+import Projcard from "../../Projeto/Projcard/index.jsx";
 
 const Projetos = () => 
 {
@@ -12,10 +12,7 @@ const Projetos = () =>
 
     const mensagem =  typeof local.state?.message != "undefined" ? local.state?.message : undefined;
     //console.log(mensagem);
-
-    const obj = {"nome": "fulano", "chave": "valor"};
-    const prop = {obj};
-    let {obj: {nome, chave}} = prop;   
+  
 
     const [projs, setProjs] = useState([]);
 
@@ -44,13 +41,10 @@ const Projetos = () =>
         let cards = [];
         for (let proj of projs) 
         {
-            cards.push(<Projeto props={proj}/>);
+            cards.push(<Projcard props={proj} key = {proj.id}/>);
         }
-        
+            
         return cards;
-        <>
-            {/*(() => {let cards = []; for (let proj of projs) {cards.push(<Projeto props = {proj}/>);} return cards})()*/}
-        </>;
     }
 
     const JSX =
@@ -68,7 +62,7 @@ const Projetos = () =>
 
             :
             
-            <>{[...projetos(projs)]}</>}
+            <>{projetos(projs)}</>}
 
         </Container>
     </main>;
