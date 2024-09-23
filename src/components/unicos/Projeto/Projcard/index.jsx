@@ -18,8 +18,8 @@ const Projcard = ({props: {id, nome, orcamento, categoria}}) =>
         </p>
 
         <div>
-            <BotaoLink className = {styles.botao} texto = "Editar" link = ""/>
-            <BotaoLink className = {styles.botao} texto = "Remover" link = ""/>
+            <div className = {styles.botao}><BsPencil/><BotaoLink texto = "Editar" link = ""/></div>
+            <div className = {styles.botao}><BsTrashFill/><BotaoLink texto = "Remover" link = ""/></div>
         </div>
     </div>;
 

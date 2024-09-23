@@ -1,6 +1,9 @@
 .card{
     padding: 1vh;
     border: 1px solid black;
+    width: 20%;
+    margin: 0 2.5%;
+    font-size: calc(0.5vmax + 1.5vmin);
 }
 
 .card > *{
@@ -12,14 +15,18 @@
     border-radius: 10px;
     color: #eeee00;
     padding-left: 1vw;
-    font-size: 2vw;
+    font-size: calc((1vh + 1vw) * 1.5);
 }
 
-.card p{
+.card > p{
     color: #555;
+    width: 100%;
     font-weight: bold;
-    font-size: 1.5vw;
+    font--size: calc(0.5vmax + 1.5vmin);
+    font-size: 1em;
+    text-wrap: wrap;
     display: flex;
+    align-items: center;
 }
 
 .card p span{
@@ -28,13 +35,24 @@
 
 .catg{
     display: block;
-    height: 2vh;
-    width: 2vh;
+    height: 1vh;
+    width: 1vh;
     border-radius: 50px;
     background-color: black;
 }
 
+.card > div{
+    display: flex;
+}
+
 .botao{
-    font-size: 2vh;
     margin-right: 1vw;
+    display: flex;
+    justify--content: center;
+    align-items: center;
+}
+
+.botao > a{
+    font-size: 1em;
+    margin-left: 2%;
 }
